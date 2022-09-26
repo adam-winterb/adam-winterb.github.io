@@ -30,6 +30,7 @@ h1, h3, p{
 
 /* Set the apperance of the class, chart */
 .chart{
+    margin: auto;
     background-color: rgb(255, 0, 98);
     width:330px;
     border-width: 10px;
