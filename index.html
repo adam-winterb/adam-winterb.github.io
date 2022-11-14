@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Title for the page -->
-    <title>Document</title>
+    <title>Data Science Week 1</title>
 
     <!-- Link to my style sheet -->
     <link rel="stylesheet" href="index.css">
@@ -27,25 +27,30 @@
     <div class="myWeek1">
         <h1>Data Science for Economists.</h1>
         
-        <h3>Covid-19</h3>
-        <p>The first chart tracks Covid-19 cases by UK region.</p>
+        <h3>Premier League Football</h3>
+        <p>The first chart tracks the cumulative number of home and away goals scored by Premier League teams</p>
         <div class="chart" id="Chart1"></div>
 
-        <h3>Productivity puzzle</h3>
-        <p>My second chart looks at productivity in the UK</p>
+        <h3>Ozone Emissions</h3>
+        <p>My second chart compares Ozone Concentration in Bristol to the rest of the United Kingdom</p>
         <div class="chart" id="Chart2"> </div>
+
+        <h3>Outstanding IMF Loans</h3>
+        <p>This chart displays IMF Credit outstanding to all members, SDRs (billions)</p>
+        <div class="chart" id="Chart3"> </div>
     </div> 
 </body>
 
 
 <script>
     //Define charts:
-    var myChart1 = "chart1_covidUKRegions.json";
-    var myChart2 = "chart2_ukProductivity.json";
-
+    var myChart1 = "chartFootball1.json";
+    var myChart2 = "chart9_ozoneEmissionsAPI.json";
+    var myChart3 = "IMF_lending_outstanding.json"
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);
+    vegaEmbed('#Chart3', mychart3)
 </script>
 
 </html>
