@@ -39,6 +39,9 @@
         <h3>Outstanding IMF Loans</h3>
         <p>This chart displays IMF Credit outstanding to all members, SDRs (billions)</p>
         <div class="chart" id="Chart3"> </div>
+        <h3>Real Value of Outstanding IMF Loans</h3>
+        <p>This chart displays IMF Credit outstanding to all members, SDRs (billions), taking into account inflation</p>
+        <div class="chart" id="Chart3"> </div>
     </div> 
 </body>
 
@@ -48,10 +51,12 @@
     var myChart1 = "chartFootball1.json";
     var myChart2 = "chart9_ozoneEmissionsAPI.json";
     var myChart3 = "IMF_lending_outstanding.json";
+    var myChart4 = "IMF_lending_outstanding_real.json";
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);
     vegaEmbed('#Chart3', myChart3);
+    vegaEmbed('#Chart4', myChart4);
 </script>
 
 </html>
