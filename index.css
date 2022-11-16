@@ -1,50 +1,44 @@
-/* Richard Davies, Data Science for Economists */
 
-/* This is my first proper css file */
+h1{font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif;
+}
 
+p{font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: larger;
+font-variant: small-caps;
+color: red;
+}
 
-/* Import a font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
-
-/* Set the background color for my page: */
 body{
-    background-color: rgb(216, 216, 216);
- 
+    background-color: rgb(122, 206, 206)
 }
 
-
-/* Choose the appearance of the tags, h1, h3 and p: */
-h1, h3, p{
-    color:rgb(17, 17, 17);
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
+.wrap{
+    background-color: aqua;
 }
-    
-.myWeek1{
-    margin: auto;
-    max-width: 600px;
-    background-color: rgb(54, 216, 224);
 
-    border-width: 3px;
+a{
+    border:5px;
+    border-color: black;
     border-style: solid;
-    border-radius: 10px;
-    border-color: rgb(17, 17, 17)
+
+    margin: 20px;
 }
 
-
-/* Set the apperance of the class, chart */
-.chart{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(255, 255, 255);
-    width:450px;
-    border-width: 2px;
+#link1{
+    border-color: pink;
     border-style: solid;
-    border-radius: 10px;
-    border-color: rgb(0, 0, 0);
-
-    
 }
-    
+
+#link2{
+    border:2px;
+    border-color: magenta;
+    border-style: solid;
+}
+#link3{
+    border-color: cyan;
+    border-style: solid;
+}
+#link4{
+    border-color: violet;
+    border-style: solid;
+}
