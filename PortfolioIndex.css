@@ -1,0 +1,44 @@
+
+h1{font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: larger;
+font-variant: small-caps;
+color: red;
+}
+
+body{
+    background-color: rgb(122, 206, 133)
+}
+
+.wrap{
+    background-color: aqua;
+}
+
+a{
+    border:5px;
+    border-color: black;
+    border-style: solid;
+
+    margin: 20px;
+}
+
+#link1{
+    border-color: pink;
+    border-style: solid;
+}
+
+#link2{
+    border:2px;
+    border-color: magenta;
+    border-style: solid;
+}
+#link3{
+    border-color: cyan;
+    border-style: solid;
+}
+#link4{
+    border-color: violet;
+    border-style: solid;
+}
