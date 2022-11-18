@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title for the page -->
+    <title>Data Science Week 2</title>
+
+    <!-- Link to my style sheet -->
+    <link rel="stylesheet" href="PortfolioLayout.css">
+
+    <!--The next three lines allow the Vega embed-->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+</head>
+
+
+
+<body>
+    <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
+    <div class="myWeek3">
+        <h3>Week 2</h3>
+        <h3>Outstanding IMF Loans</h3>
+        <p>This chart displays IMF Credit outstanding to all members, SDRs (billions)</p>
+        <div class="chart" id="Chart3"> </div>
+        <h3>Real Value of Outstanding IMF Loans</h3>
+        <p>This chart displays IMF Credit outstanding to all members, SDRs (billions), taking into account inflation</p>
+        <div class="chart" id="Chart4"> </div>
+        <p>After accounting for inflation, we can see that 2012 had the highest real IMF lending, suggesting that this was the 'riskiest' year</p>
+        <a href="index.html">Homepage</a>
+        <a href="PortfolioIndex.html">Portfolio Index</a>
+    </div> 
+</body>
+
+
+<script>
+    //Define charts:
+    var myChart3 = "IMF_lending_outstanding.json";
+    var myChart4 = "IMF_lending_outstanding_real.json";
+    // Embed charts:
+    vegaEmbed('#Chart3', myChart3);
+    vegaEmbed('#Chart4', myChart4);
+</script>
+
+</html>

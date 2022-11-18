@@ -5,11 +5,13 @@ h1{font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif;
 p{font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: larger;
 font-variant: small-caps;
-color: red;
+color: purple;
+margin-top: 20px;
+margin-bottom: 50px;
 }
 
 body{
-    background-color: rgb(122, 206, 133)
+    background-color: rgb(122, 206, 206)
 }
 
 .wrap{
@@ -17,28 +19,90 @@ body{
 }
 
 a{
-    border:5px;
+    border:3px;
     border-color: black;
     border-style: solid;
-
-    margin: 20px;
+    margin: 50px;
 }
 
-#link1{
-    border-color: pink;
+#PortfolioLink1{
+    background-color: rgba(49, 54, 66, 0.4);
+    border-color: grey;
     border-style: solid;
-}
-
-#link2{
     border:2px;
-    border-color: magenta;
-    border-style: solid;
+    border-radius: 10px;
+
+    padding:10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:700;
+    color:white;
+    text-decoration: none;
 }
-#link3{
-    border-color: cyan;
-    border-style: solid;
+#PortfolioLink1:hover{
+    background-color:rgb(0,47,167);
+    border:2px;
+    border-color:black;
+    border-style:solid;
+
 }
-#link4{
-    border-color: violet;
+
+#PortfolioLink2{
+    background-color: rgba(49, 54, 66, 0.4);
+    border-color: grey;
     border-style: solid;
+    border:2px;
+    border-radius: 10px;
+
+    padding:10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:700;
+    color:white;
+    text-decoration: none;
+}
+#PortfolioLink2:hover{
+    background-color:rgb(0,47,167);
+    border:2px;
+    border-color:black;
+    border-style:solid;
+
+}
+#PortfolioLink3{
+    background-color: rgba(49, 54, 66, 0.4);
+    border-color: grey;
+    border-style: solid;
+    border:2px;
+    border-radius: 10px;
+
+    padding:10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:700;
+    color:white;
+    text-decoration: none;
+}
+#PortfolioLink3:hover{
+    background-color:rgb(0,47,167);
+    border:2px;
+    border-color:black;
+    border-style:solid;
+
+}
+#PortfolioLinkHomepage{
+    background-color: rgba(49, 54, 66, 0.4);
+    border-color: grey;
+    border-style: solid;
+    border:2px;
+    border-radius: 10px;
+
+    padding:10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:700;
+    color:white;
+    text-decoration: none;
+}
+#PortfolioLinkHomepage:hover{
+    background-color:rgb(0,47,167);
+    border:2px;
+    border-color:black;
+    border-style:solid;
+
 }

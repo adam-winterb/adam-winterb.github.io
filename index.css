@@ -5,7 +5,9 @@ h1{font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif;
 p{font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: larger;
 font-variant: small-caps;
-color: red;
+color: purple;
+margin-top: 20px;
+margin-bottom: 50px;
 }
 
 body{
@@ -17,28 +19,57 @@ body{
 }
 
 a{
-    border:5px;
+    border:2px;
     border-color: black;
     border-style: solid;
+    margin: 100px;
 
-    margin: 20px;
 }
 
 #link1{
-    border-color: pink;
+    background-color: rgba(49, 54, 66, 0.4);
+    border-color: grey;
     border-style: solid;
+    border:2px;
+    border-radius: 10px;
+
+    padding:10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:700;
+    color:white;
+    text-decoration: none;
+}
+#link1:hover{
+    background-color:rgb(0,47,167);
+    border:2px;
+    border-color:black;
+    border-style:solid;
+
 }
 
 #link2{
+    background-color: rgba(49, 54, 66, 0.4);
+    border-color: grey;
+    border-style: solid;
     border:2px;
-    border-color: magenta;
-    border-style: solid;
+    border-radius: 10px;
+
+    padding:10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:700;
+    color:white;
+    text-decoration: none;
 }
-#link3{
-    border-color: cyan;
-    border-style: solid;
+#link2:hover{
+    background-color:rgb(0,47,167);
+    border:2px;
+    border-color:black;
+    border-style:solid;
+
 }
+
 #link4{
     border-color: violet;
     border-style: solid;
+    background-color: (0,47,167);
 }
