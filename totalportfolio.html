@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title for the page -->
+    <title>Data Science Index</title>
+
+    <!-- Link to my style sheet -->
+    <link rel="stylesheet" href="totalportfolio.css">
+
+    <!--The next three lines allow the Vega embed-->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+</head>
+
+
+
+<body>
+    <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
+    <div class="heading">
+        <h1>Data Science Portfolio</h1>
+    </div>
+    <a href="index.html" id="HomepageLink">Homepage</a>
+    <a href="Project.html" id="MyProject">My project</a>
+        
+    <div class="myWeek1">
+        <h3>Week 1</h3>
+        <h3>Premier League Football</h3>
+        <p>The first chart tracks the cumulative number of home and away goals scored by Premier League teams</p>
+        <div class="chart" id="Chart5"></div>
+
+        <h3>Ozone Emissions</h3>
+        <p>My second chart compares Ozone Concentration in Bristol to the rest of the United Kingdom</p>
+        <div class="chart" id="Chart6"> </div>
+    </div> 
+
+    <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
+    <div class="myWeek2">
+        <h3>Week 2</h3>
+        <h3>Outstanding IMF Loans</h3>
+        <p>This chart displays IMF Credit outstanding to all members, SDRs (billions)</p>
+        <div class="chart" id="Chart7"> </div>
+        <h3>Real Value of Outstanding IMF Loans</h3>
+        <p>This chart displays IMF Credit outstanding to all members, SDRs (billions), taking into account inflation</p>
+        <div class="chart" id="Chart8"> </div>
+        <p>After accounting for inflation, we can see that 2012 had the highest real IMF lending, suggesting that this was the 'riskiest' year</p>
+
+    </div> 
+</body>
+
+
+<script>
+    //Define charts:
+    var myChart5 = "chartFootball1.json";
+    var myChart6 = "chart9_ozoneEmissionsAPI.json";
+
+    // Embed charts:
+    vegaEmbed('#Chart5', myChart5);
+    vegaEmbed('#Chart6', myChart6);
+
+    var myChart7 = "IMF_lending_outstanding.json";
+    var myChart8 = "IMF_lending_outstanding_real.json";
+    // Embed charts:
+    vegaEmbed('#Chart7', myChart7);
+    vegaEmbed('#Chart8', myChart8);
+</script>
+
+
+</html>
+
+

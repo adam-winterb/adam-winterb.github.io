@@ -1,17 +1,20 @@
 
 h1{font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color:purple;
 }
 
 p{font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: larger;
 font-variant: small-caps;
-color: purple;
-margin-top: 20px;
+color:greenyellow;
 margin-bottom: 50px;
+text-align: center;
+background-color:rgb(122,206,206);
 }
 
 body{
-    background-color: rgb(122, 206, 206)
+    background-color:rgb(129, 159, 172)
 }
 
 .wrap{
@@ -25,6 +28,27 @@ a{
     margin: 100px;
 
 }
+#PortfolioPage{
+    background-color: rgba(49, 54, 66, 0.4);
+    border-color: grey;
+    border-style: solid;
+    border:2px;
+    border-radius: 10px;
+
+    padding:10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:700;
+    color:white;
+    text-decoration: none;
+}
+#PortfolioPage:hover{
+    background-color:rgb(0,47,167);
+    border:2px;
+    border-color:black;
+    border-style:solid;
+
+}
+
 
 #link1{
     background-color: rgba(49, 54, 66, 0.4);
