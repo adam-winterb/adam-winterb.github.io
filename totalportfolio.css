@@ -11,7 +11,7 @@
 
 /* Set the background color for my page: */
 body{
-    background-color: rgb(119, 189, 211);
+    background-color: rgb(193, 223, 231);
     
 
 }
@@ -75,13 +75,17 @@ a{
 
 }
 
-    
+h1{
+    text-align: center;
+
+}
+
 .myWeek1{
     margin: auto;
     margin-bottom: 50px;
     margin-top:50px;
     max-width: 600px;
-    background-color: rgb(175, 150, 103);
+    background-color: rgb(124, 184, 161);
 
     border-width: 3px;
     border-style: solid;
@@ -95,7 +99,7 @@ a{
     margin-bottom:50px;
     margin-top:50px;
     max-width: 600px;
-    background-color: rgb(175, 150, 103);
+    background-color: rgb(124, 184, 161);
 
     border-width: 3px;
     border-style: solid;
