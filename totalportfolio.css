@@ -110,8 +110,9 @@ h1{
 .myWeek3{
     margin:auto;
     margin-bottom:50px;
+    margin-top:50px;
     max-width: 600px;
-    background-color: rgb(175, 150, 103);
+    background-color: rgb(124, 184, 161);
 
     border-width: 3px;
     border-style: solid;

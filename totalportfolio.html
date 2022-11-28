@@ -33,11 +33,11 @@
     <div class="myWeek1">
         <h3>Week 1</h3>
         <h3>Premier League Football</h3>
-        <p>The first chart tracks the cumulative number of home and away goals scored by Premier League teams</p>
+        <p>The first chart tracks the cumulative number of home and away goals scored by Premier League teams.</p>
         <div class="chart" id="Chart5"></div>
 
         <h3>Ozone Emissions</h3>
-        <p>My second chart compares Ozone Concentration in Bristol to the rest of the United Kingdom</p>
+        <p>My second chart compares Ozone Concentration in Bristol to the rest of the United Kingdom.</p>
         <div class="chart" id="Chart6"> </div>
     </div> 
 
@@ -45,14 +45,24 @@
     <div class="myWeek2">
         <h3>Week 2</h3>
         <h3>Outstanding IMF Loans</h3>
-        <p>This chart displays IMF Credit outstanding to all members, SDRs (billions)</p>
+        <p>This chart displays IMF Credit outstanding to all members, SDRs (billions).</p>
         <div class="chart" id="Chart7"> </div>
         <h3>Real Value of Outstanding IMF Loans</h3>
-        <p>This chart displays IMF Credit outstanding to all members, SDRs (billions), taking into account inflation</p>
+        <p>This chart displays IMF Credit outstanding to all members, SDRs (billions), taking into account inflation.</p>
         <div class="chart" id="Chart8"> </div>
-        <p>After accounting for inflation, we can see that 2012 had the highest real IMF lending, suggesting that this was the 'riskiest' year</p>
-
-    </div> 
+        <p>After accounting for inflation, we can see that 2012 had the highest real IMF lending, suggesting that this was the 'riskiest' year.</p>
+    
+        
+    </div>
+    <div class="myWeek3">
+        <h3>Week 3</h3>
+        <h3>Selected NASDAQ stock performance over a 30-day period</h3>
+        <p>This line chart displays the share price at close of Amazon, Meta, Apple, Microsoft and Alphabet.</p>
+        <div class="chart" id="Chart9"> </div>
+        <p>This chart displays the share price at close of Amazon, Meta, Apple, Microsoft and Alphabet.</p>
+        <div class="chart" id="Chart10"> </div>
+        <p>This chart uses a 'tick' mark and helps to better display the distribution of values than the line chart.</p>
+    </div>
 </body>
 
 
@@ -70,6 +80,11 @@
     // Embed charts:
     vegaEmbed('#Chart7', myChart7);
     vegaEmbed('#Chart8', myChart8);
+    var myChart9 = "NASDAQ30days.json";
+    var myChart10 = "NASDAQ30daystick.json";
+    // Embed charts:
+    vegaEmbed('#Chart9', myChart9);
+    vegaEmbed('#Chart10', myChart10);
 </script>
 
 
