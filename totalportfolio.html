@@ -63,6 +63,14 @@
         <div class="chart" id="Chart10"> </div>
         <p>This chart uses a 'tick' mark and helps to better display the distribution of values than the line chart.</p>
     </div>
+    <div class="myWeek4">
+        <h3>Week 4</h3>
+        <h3>Python Colab with data scraping, cleaning and analysis:</h3>
+        <a href="https://colab.research.google.com/drive/1uXnpF5lupEKLYK3nyBQ33NwYwhEa3ppQ#scrollTo=c5rRUDuJWryr" id="ColabWeek4">Colab Link</a>
+        <p>A scatterplot showing the relationship between the Average Life expectancy and the Female-Male gender gap of Average life expectancy in 194 countries.</p>
+        <div class="chartlonger" id="Chart11"> </div>
+        <p>The website had fairly clean data and I wanted to investigate a potential correlation between life expectancy and the gender gap of life expectancy.</p>
+    </div>
 </body>
 
 
@@ -77,14 +85,19 @@
 
     var myChart7 = "IMF_lending_outstanding.json";
     var myChart8 = "IMF_lending_outstanding_real.json";
-    // Embed charts:
+
     vegaEmbed('#Chart7', myChart7);
     vegaEmbed('#Chart8', myChart8);
+
     var myChart9 = "NASDAQ30days.json";
     var myChart10 = "NASDAQ30daystick.json";
-    // Embed charts:
+
     vegaEmbed('#Chart9', myChart9);
     vegaEmbed('#Chart10', myChart10);
+
+    var myChart11 = "LifeExpectancy.json";
+    vegaEmbed('#Chart11', myChart11);
+
 </script>
 
 
