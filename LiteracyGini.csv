@@ -1,51 +1,51 @@
-﻿State,Literacy Rate,Gini coefficient (2019),Inequality Rank
-New Hampshire,0.942,0.4406,9
-Minnesota,0.94,0.4434,11
-North Dakota,0.937,0.4558,18
-Vermont,0.934,0.4471,12
-South Dakota,0.93,0.436,4
-Nebraska,0.927,0.44,8
-Wisconsin,0.927,0.4391,6
-Maine,0.926,0.449,13
-Iowa,0.925,0.4422,10
-Missouri,0.925,0.4633,25
-Kansas,0.922,0.45,15
-Indiana,0.92,0.4584,21
-Michigan,0.917,0.4634,26
-Rhode Island,0.915,0.4628,24
-Connecticut,0.914,0.5024,49
-Montana,0.912,0.4597,23
-Wyoming,0.911,0.4345,3
-Ohio,0.909,0.4651,28
-Alaska,0.908,0.4376,5
-Utah,0.906,0.4268,1
-Washington,0.902,0.4577,20
-Colorado,0.901,0.4548,17
-Massachusetts,0.901,0.4803,44
-Oregon,0.898,0.45,14
-Idaho,0.895,0.4337,2
-Delaware,0.893,0.4509,16
-Maryland,0.888,0.4558,19
-Virginia,0.88,0.469,29
-Kentucky,0.878,0.4764,39
-Oklahoma,0.877,0.4739,31
-Pennsylvania,0.874,0.4745,34
-Illinois,0.871,0.48,43
-Arizona,0.869,0.4591,22
-Tennessee,0.868,0.4749,36
-West Virginia,0.866,0.4644,27
-North Carolina,0.864,0.4743,33
-Arkansas,0.863,0.475,37
-South Carolina,0.853,0.4747,35
-Alabama,0.852,0.4741,32
-Hawaii,0.841,0.4397,7
-Louisiana,0.84,0.4978,48
-Mississippi,0.84,0.4896,47
-Nevada,0.839,0.471,30
-New Mexico,0.835,0.4768,40
-Georgia,0.833,0.4795,42
-New Jersey,0.831,0.4782,41
-Texas,0.81,0.4753,38
-Florida,0.803,0.4808,45
-New York,0.779,0.5149,51
-California,0.769,0.4866,50
+﻿State,Literacy Rate,Gini coefficient (2019),Inequality Rank,Population
+New Hampshire,0.942,0.4406,9,1371424
+Minnesota,0.94,0.4434,11,5666238
+North Dakota,0.937,0.4558,18,768441
+Vermont,0.934,0.4471,12,641347
+South Dakota,0.93,0.436,4,879421
+Nebraska,0.927,0.44,8,1947985
+Wisconsin,0.927,0.4391,6,5873043
+Maine,0.926,0.449,13,1358961
+Iowa,0.925,0.4422,10,3175964
+Missouri,0.925,0.4633,25,6138318
+Kansas,0.922,0.45,15,2929402
+Indiana,0.92,0.4584,21,6755359
+Michigan,0.917,0.4634,26,10057961
+Rhode Island,0.915,0.4628,24,1092896
+Connecticut,0.914,0.5024,49,3602762
+Montana,0.912,0.4597,23,1074744
+Wyoming,0.911,0.4345,3,575524
+Ohio,0.909,0.4651,28,11773150
+Alaska,0.908,0.4376,5,731075
+Utah,0.906,0.4268,1,3220842
+Washington,0.902,0.4577,20,7607206
+Colorado,0.901,0.4548,17,5699264
+Massachusetts,0.901,0.4803,44,6981690
+Oregon,0.898,0.45,14,4196636
+Idaho,0.895,0.4337,2,1811950
+Delaware,0.893,0.4509,16,980743
+Maryland,0.888,0.4558,19,6136855
+Virginia,0.88,0.469,29,8568357
+Kentucky,0.878,0.4764,39,4489190
+Oklahoma,0.877,0.4739,31,3938551
+Pennsylvania,0.874,0.4745,34,12972667
+Illinois,0.871,0.48,43,12814324
+Arizona,0.869,0.4591,22,7075549
+Tennessee,0.868,0.4749,36,6854371
+West Virginia,0.866,0.4644,27,1799642
+North Carolina,0.864,0.4743,33,10348993
+Arkansas,0.863,0.475,37,3001967
+South Carolina,0.853,0.4747,35,5069118
+Alabama,0.852,0.4741,32,4999822
+Hawaii,0.841,0.4397,7,1445774
+Louisiana,0.84,0.4978,48,4645314
+Mississippi,0.84,0.4896,47,2961879
+Nevada,0.839,0.471,30,3064205
+New Mexico,0.835,0.4768,40,2111685
+Georgia,0.833,0.4795,42,10609487
+New Jersey,0.831,0.4782,41,9239284
+Texas,0.81,0.4753,38,28745507
+Florida,0.803,0.4808,45,21264502
+New York,0.779,0.5149,51,20118937
+California,0.769,0.4866,50,39309799
