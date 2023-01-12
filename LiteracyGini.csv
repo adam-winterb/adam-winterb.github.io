@@ -1,51 +1,51 @@
-﻿State,Literacy Rate,Gini coefficient (2019)
-New Hampshire,0.942,0.4406
-Minnesota,0.94,0.4434
-North Dakota,0.937,0.4558
-Vermont,0.934,0.4471
-South Dakota,0.93,0.436
-Nebraska,0.927,0.44
-Wisconsin,0.927,0.4391
-Maine,0.926,0.449
-Iowa,0.925,0.4422
-Missouri,0.925,0.4633
-Kansas,0.922,0.45
-Indiana,0.92,0.4584
-Michigan,0.917,0.4634
-Rhode Island,0.915,0.4628
-Connecticut,0.914,0.5024
-Montana,0.912,0.4597
-Wyoming,0.911,0.4345
-Ohio,0.909,0.4651
-Alaska,0.908,0.4376
-Utah,0.906,0.4268
-Washington,0.902,0.4577
-Colorado,0.901,0.4548
-Massachusetts,0.901,0.4803
-Oregon,0.898,0.45
-Idaho,0.895,0.4337
-Delaware,0.893,0.4509
-Maryland,0.888,0.4558
-Virginia,0.88,0.469
-Kentucky,0.878,0.4764
-Oklahoma,0.877,0.4739
-Pennsylvania,0.874,0.4745
-Illinois,0.871,0.48
-Arizona,0.869,0.4591
-Tennessee,0.868,0.4749
-West Virginia,0.866,0.4644
-North Carolina,0.864,0.4743
-Arkansas,0.863,0.475
-South Carolina,0.853,0.4747
-Alabama,0.852,0.4741
-Hawaii,0.841,0.4397
-Louisiana,0.84,0.4978
-Mississippi,0.84,0.4896
-Nevada,0.839,0.471
-New Mexico,0.835,0.4768
-Georgia,0.833,0.4795
-New Jersey,0.831,0.4782
-Texas,0.81,0.4753
-Florida,0.803,0.4808
-New York,0.779,0.5149
-California,0.769,0.4866
+﻿State,Literacy Rate,Gini coefficient (2019),Inequality Rank
+New Hampshire,0.942,0.4406,9
+Minnesota,0.94,0.4434,11
+North Dakota,0.937,0.4558,18
+Vermont,0.934,0.4471,12
+South Dakota,0.93,0.436,4
+Nebraska,0.927,0.44,8
+Wisconsin,0.927,0.4391,6
+Maine,0.926,0.449,13
+Iowa,0.925,0.4422,10
+Missouri,0.925,0.4633,25
+Kansas,0.922,0.45,15
+Indiana,0.92,0.4584,21
+Michigan,0.917,0.4634,26
+Rhode Island,0.915,0.4628,24
+Connecticut,0.914,0.5024,49
+Montana,0.912,0.4597,23
+Wyoming,0.911,0.4345,3
+Ohio,0.909,0.4651,28
+Alaska,0.908,0.4376,5
+Utah,0.906,0.4268,1
+Washington,0.902,0.4577,20
+Colorado,0.901,0.4548,17
+Massachusetts,0.901,0.4803,44
+Oregon,0.898,0.45,14
+Idaho,0.895,0.4337,2
+Delaware,0.893,0.4509,16
+Maryland,0.888,0.4558,19
+Virginia,0.88,0.469,29
+Kentucky,0.878,0.4764,39
+Oklahoma,0.877,0.4739,31
+Pennsylvania,0.874,0.4745,34
+Illinois,0.871,0.48,43
+Arizona,0.869,0.4591,22
+Tennessee,0.868,0.4749,36
+West Virginia,0.866,0.4644,27
+North Carolina,0.864,0.4743,33
+Arkansas,0.863,0.475,37
+South Carolina,0.853,0.4747,35
+Alabama,0.852,0.4741,32
+Hawaii,0.841,0.4397,7
+Louisiana,0.84,0.4978,48
+Mississippi,0.84,0.4896,47
+Nevada,0.839,0.471,30
+New Mexico,0.835,0.4768,40
+Georgia,0.833,0.4795,42
+New Jersey,0.831,0.4782,41
+Texas,0.81,0.4753,38
+Florida,0.803,0.4808,45
+New York,0.779,0.5149,51
+California,0.769,0.4866,50
